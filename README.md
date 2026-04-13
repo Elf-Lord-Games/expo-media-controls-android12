@@ -22,7 +22,6 @@ This repro includes both:
 ## Run
 
 ```bash
-cd repros/expo-media-controls-android12
 pnpm install
 pnpm android
 ```
@@ -47,3 +46,4 @@ On Android 12, the notification may show metadata and/or progress but no playbac
 
 - This repro intentionally avoids app-specific state, navigation, analytics, downloads, and custom native code.
 - It is meant to isolate Expo media-session behavior as much as possible.
+- Although this issue was observed on Android 12, it is likely present on other older versions of Android
