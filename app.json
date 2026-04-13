@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Expo Media Controls Repro",
+    "slug": "expo-media-controls-android12-repro",
+    "scheme": "expomediarepro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "plugins": [
+      [
+        "expo-audio",
+        {
+          "enableBackgroundPlayback": true
+        }
+      ],
+      [
+        "expo-video",
+        {
+          "supportsBackgroundPlayback": true,
+          "supportsPictureInPicture": true
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 26,
+            "compileSdkVersion": 36,
+            "targetSdkVersion": 35
+          }
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.example.expomediarepro"
+    },
+    "ios": {
+      "bundleIdentifier": "com.example.expomediarepro",
+      "infoPlist": {
+        "UIBackgroundModes": ["audio"]
+      }
+    }
+  }
+}

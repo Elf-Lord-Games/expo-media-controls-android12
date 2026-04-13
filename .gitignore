@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+
+# expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# native build output
+android/.gradle/
+android/app/build/
+android/build/
+
+# logs
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+pnpm-debug.log*
+
+# local env
+.env
+.env.local
+.env.*.local
+
+# macOS
+.DS_Store
+
+# editors
+.idea/
+.vscode/
