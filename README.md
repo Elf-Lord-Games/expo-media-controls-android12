@@ -29,10 +29,8 @@ pnpm android
 ## Test steps
 
 1. Tap `Play Audio` or `Play Video`.
-2. Background the app.
-3. Open the Android media notification.
-4. Expand it if needed.
-5. Observe whether the transport buttons are missing on Android 12.
+2. Open the Android media notification.
+3. Observe whether the transport buttons are missing on Android 12.
 
 ## Expected
 

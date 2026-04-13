@@ -8,9 +8,8 @@ dist/
 web-build/
 
 # native build output
-android/.gradle/
-android/app/build/
-android/build/
+android/
+ios/
 
 # logs
 *.log
