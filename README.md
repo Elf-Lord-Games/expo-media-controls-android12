@@ -2,9 +2,9 @@
 
 Minimal repro for an Android 12 media-notification issue with:
 
-- `expo-audio@55.0.8`
+- `expo-audio@55.0.13`
 - `expo-video@55.0.9`
-- `expo@55.0.2`
+- `expo@55.0.15`
 
 ## Symptom
 
@@ -31,6 +31,8 @@ pnpm android
 1. Tap `Play Audio` or `Play Video`.
 2. Open the Android media notification.
 3. Observe whether the transport buttons are missing on Android 12.
+
+This was tested on an Android 12 emulator running a development build of the app with pnpm as the package manager.
 
 ## Expected
 
